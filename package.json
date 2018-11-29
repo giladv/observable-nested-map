@@ -1,6 +1,6 @@
 {
   "name": "observable-nested-map",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "test": "jest",
@@ -23,7 +23,7 @@
     "lodash": "^4.17.5"
   },
   "peerDependencies": {
-    "mobx": "^5.6.0"
+    "mobx": "^4.6.0"
   },
   "devDependencies": {
     "css-loader": "^0.28.1",
