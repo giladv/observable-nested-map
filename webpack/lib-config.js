@@ -15,6 +15,7 @@ module.exports = (env, argv) => {
 			filename: 'lib.js',
 			library: 'observable-nested-map',
 			libraryTarget: 'umd',
+			globalObject: 'typeof self !== \'undefined\' ? self : this',
 			umdNamedDefine: true
 		},
 		module: {
